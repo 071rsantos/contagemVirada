@@ -1,0 +1,57 @@
+@font-face {
+    font-family: relogio;
+    src: url(../fonte/DS-DIGIT.TTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: relogio;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(darkgreen, black);
+    color: lime;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+}
+h1{
+    font-size: 100px;
+}
+#container{
+    background: rgb(63, 63, 63);
+    box-shadow: 5px 10px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    height: 600px;
+    border-radius: 15px;
+}
+#container:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+#conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 55px;
+}
+#gran{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    gap: 25px;
+    border: solid grey 2px;
+}
+#gran:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
